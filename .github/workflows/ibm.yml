@@ -9,9 +9,9 @@ on:
     - cron: '0 12 * * FRI'
 
 jobs:
-  ibm-cloud-restart:
+  ibm-cloud-restart: 
     runs-on: ubuntu-latest
-
+ 
     steps:
     - uses: actions/checkout@v2
 
